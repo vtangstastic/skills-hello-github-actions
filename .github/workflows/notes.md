@@ -1,0 +1,4 @@
+- name: Post welcome comment gives your workflow a name. This name appears on any pull request or in the Actions tab of your repository.
+- on: pull_request: types: [opened] indicates that your workflow will execute anytime a pull request opens in your repository.
+- permissions assigns the workflow permissions to operate on the repository
+- pull-requests: write gives the workflow permission to write to pull requests. This is needed to create the welcome comment
